@@ -1,0 +1,29 @@
+header{
+   background-color: red;
+}
+header h1{
+   color: white;
+   text-align: center;
+   font-size: 30px;
+}
+footer{
+   background-color: grey;
+   justify-content: flex-end;
+} 
+footer h1{
+   text-align: right;
+   color: white;
+   font-size: 30px;
+   bottom: 0;
+}
+.photo{
+   display: flex;
+   justify-content: center;
+}
+img{
+   width: 200px;
+   height: 100px;
+}
+.vide{
+   height: 700px;
+}
