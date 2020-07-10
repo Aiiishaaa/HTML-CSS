@@ -1,0 +1,17 @@
+#layout{
+	margin-left: 30%;
+	text-align: center; 
+	color :white;
+	background-color: black;
+	width: 500px;
+	padding: 5px 5px 5px 5px;
+} 
+.gauche{
+	 text-align:left;
+}
+.droite{ 
+	text-align: right;
+}
+button{ 
+	background-color: teal;
+}
