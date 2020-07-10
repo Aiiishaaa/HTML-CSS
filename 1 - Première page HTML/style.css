@@ -1,0 +1,16 @@
+
+body{
+     background-color :rgba(141, 196, 233, 0.959);
+}
+h1{
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: normal;
+     color: blue
+}
+p{
+     font-family:"times new roman", times, serif; 
+}
+img{
+     width: 200px;
+     height: 100px;
+}
