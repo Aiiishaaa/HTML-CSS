@@ -1,0 +1,12 @@
+.article>p{
+    margin-left: 20px;  /*Un retrait gauche de 20px pour tous les paragraphes descendants de la classe "article".*/
+}
+h2~p{
+	border: 2px solid black; /* Une bordure noir et solide pour les paragraphes adjacents du titre "h2"*/
+}
+li>p{
+    color: green; /* Une couleur verte pour les paragraphes fils directs des éléments "li"*/
+}
+h2+p{
+    background-color: yellow; /* Un background de couleur jaune pour  les paragraphes frères directs du titre "h2"*/
+}
