@@ -1,0 +1,55 @@
+a:hover{
+    text-decoration: none;
+    background-color: brown;
+    color:white;
+}
+a:visited{
+    color:#FCB941;
+}
+a:active{
+    font-size:1.5em;
+}
+caption{
+    font-size: 1.5em; /*Changer la taille du titre à "1.5em" en affichant la première lettre de chaque mot en capitale*/
+    text-transform: capitalize;
+}
+table{
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 400px;
+    width: 500px;
+    border: none;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center; /* Ajouter une marge interne de 10px et un alignement centré pour tous les cellules "th et td"*/
+    padding: 10px;
+}
+thead>tr:first-child>th:nth-child(2){
+    color: blue; /* Cibler  la deuxième balise "th" de la première "tr" qui contient le mois du planning pour */
+    font-size: 2em;  /*  lui changer la taille en "2em" et la couleur en bleu*/
+}
+tr:nth-child(odd)>td:first-child{
+    background-color: #7E3661;  /* Donner à la première cellule de chaque ligne en position impaire */
+    color : white;                   /*un background "#7E3661" et une couleur "#fff" */
+}
+tbody>tr:nth-child(even)>td{ /*selectionner les lignes paires*/
+    background-color: orange;
+}
+tr:nth-child(odd)>td{  /*selectionner les lignes impaires*/
+    background-color: #F1654C;
+}
+tr> td:last-child{ 
+    background-color: #8870FF; /* Donner à la dernière cellule de chaque ligne en position impaire ,un background "#8870FF" et 
+    une couleur "#fff".(Utiliser les pseudo classes nth-child et last-child)*/
+}
+tr:nth-child(even)>td:first-child{ /* Donner à la première cellule de chaque ligne en position paire ,*/
+    background-color: grey ;              /*background-image:  background "#888888"*/
+    color: white;
+}
+th[rowspan]:last-child{ 
+    color: white;
+    border-top: none; /*Enlever la bordure droite et la bordure du haut  de la dernière cellule "th" */
+    border-right: none; /*qui  possède un attribut "rowspan" (utiliser le pseudo classe "last-child' et un sélecteur d'attribut*/
+    border-collapse: collapse;
+}
