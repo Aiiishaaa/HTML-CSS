@@ -1,0 +1,51 @@
+.list1 li{
+    list-style-type: none;
+}
+.list1 li:before{
+    content: "";
+    width: 0; 
+    height: 0; 
+    border: 10px solid black; 
+    border-top-color:white;
+    border-right-color: white;
+    border-bottom-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.list2 li{
+    list-style: none;
+}
+.list2 li:before{
+    content: "";
+    display: inline-block;
+    width: 10px; 
+    height: 10px; 
+    border-width: 3px;
+    margin-top: 5px ;
+    border-style:solid;
+    background: white;
+    border-color: blue;
+    margin-right: 5px;
+    transform: rotate(45deg);        
+}
+.list3 li{
+    list-style: none;
+}
+.list3{
+    counter-reset: circle ;
+}
+.list3 li{
+    counter-increment: circle ;
+}
+.list3 li:before{
+    content: counter(circle);
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 60px;   
+    padding: 6px 10px 6px 10px;
+    background: rgb(58, 126, 194);
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+}
