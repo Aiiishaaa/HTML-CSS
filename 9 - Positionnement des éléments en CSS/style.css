@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.article{
+    position: absolute;
+    margin-top: 100px;
+    background-color: rgb(199, 194, 194);
+    height: 500px;
+    width: 500px;
+}
+.details{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width: 420px;
+    height: 80px;
+    background-color: rgb(86, 154, 233);
+}
+.fix{
+    font-size: 30px;
+    color: white;
+    width: 100px;
+    height: 80px;
+    background-color: rgb(86, 154, 233);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
