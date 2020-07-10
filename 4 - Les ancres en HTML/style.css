@@ -1,0 +1,21 @@
+body{
+    background-color: burlywood;
+}
+header{
+    color: teal;
+    font-style: italic;
+    text-justify: auto;
+}
+ img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 200px;
+     height: 100px;
+}      
+h3{
+    color: indianred;
+}
+p{
+    font-style: oblique;
+}
