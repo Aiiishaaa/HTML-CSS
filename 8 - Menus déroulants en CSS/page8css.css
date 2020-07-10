@@ -1,0 +1,52 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+    margin-left: 30px;
+
+}
+nav li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+nav .sous-menu{
+    overflow: hidden;
+    height: 0;
+    transition:0.5s height;
+    position: absolute;
+    padding: 0px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+}
+nav > ul > li:hover {
+    border-bottom: solid 5px rgb(72, 133, 245);
+}
+nav li:hover .sous-menu{
+    height: 200px;
+    top: 115%;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+}
+.sous-menu li a{
+    color: white;
+    text-align: center;
+}
+.sous-menu > li:hover{
+    background-color: blue;
+}
+.sous-menu li{
+    padding: 10px 25px;
+    font-size: 20px;
+    width: 58px;
+    background-color: rgb(156, 154, 154);
+    margin-bottom: 2px;
+}
